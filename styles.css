@@ -33,7 +33,7 @@ p{
 	}
 
 /*Navigation Bar*/
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -41,11 +41,10 @@ ul {
   background-color: #314e52;
 }
 
-ul li{
+nav li{
   float: left;
 }
-
-ul li a {
+nav li a {
   	display: block;
   	color: #f7f6e7;
   	padding: 15px 18px;
@@ -53,12 +52,13 @@ ul li a {
   	text-align: center;
   	font-family: Helvetica, sans-serif;
 }
-ul li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   	background-color: #223a3d;
 }
 .active {
   	background-color: #f2a154;
   }
+
 ol{
 	
 	font-family: Helvetica, sans-serif;
